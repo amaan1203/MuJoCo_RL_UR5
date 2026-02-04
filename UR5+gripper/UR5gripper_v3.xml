@@ -227,7 +227,21 @@ Control Engineering / Automation Engineering
                 <freejoint name="tablebox_joint" />
                 <geom size="0.03 0.03 0.03" pos="0 0 0.03" type="box" material="tablecube"/>
                 <inertial pos="0 0 0.03" mass="0.5" diaginertia="0 0 0" />
+<<<<<<< HEAD
         </body>
+=======
+        </body> -->
+
+        <body name="box_1" pos=".0 -.6 0.9">
+            <joint armature="0" axis="1 0 0" damping="0" limited="false" name="box_1_x" pos="0 0 0" range="-5. 5." stiffness="0" type="slide"/>
+            <joint armature="0" axis="0 1 0" damping="0" limited="true" name="box_1_y" pos="0 0 0" range="-5. 5." stiffness="0" type="slide"/>
+            <joint armature="0" axis="0 0 1" damping="0" limited="true" name="box_1_z" pos="0 0 0" range="-2. 2." stiffness="0" type="slide"/>
+            <!-- <joint armature="0" damping="0" name="box_1_rot" pos="0 0 0" stiffness="0" type="ball"/> -->
+            <geom name="box_1" pos="0 0 0" material="tablecube" size="0.02 0.02 0.02" type="box" friction="1 0.005 0.0001" />
+            <inertial pos="0 0 0" mass="0.2" diaginertia="0.001 0.001 0.001" />
+        </body>
+
+>>>>>>> 0f58b08a8a5e5753a20cba47562aee6032a86b5c
     </worldbody>
 
 
