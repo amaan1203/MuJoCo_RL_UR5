@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-
-# Author: Paul Daniel (pdd@mp.aau.dk)
-
 from collections import defaultdict
 import os
 from pathlib import Path

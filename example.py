@@ -11,7 +11,6 @@ controller.move_ee([0.0, -0.6, 0.95], plot=True, marker=True)
 
 # Move down to object
 controller.move_ee([0.0, -0.6, 0.895])
-
 # Wait a second
 controller.stay(1000)
 
